@@ -3,12 +3,12 @@
 pkgname=python-pysmt-git
 pkgdesc="A library for SMT formulae manipulation and solving"
 url="https://github.com/pysmt/pysmt"
-pkgver=0.9.5.r53.gf7b599c
+pkgver=0.9.6.r5.g8767a7e
 pkgrel=1
 arch=('any')
 depends=('python')
-makedepends=('git' 'python-build' 'python-installer' 'python-wheel'
-             'python-six')
+makedepends=('git' 'python-setuptools' 'python-build' 'python-installer'
+             'python-wheel' 'python-six')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
 license=('Apache')
